@@ -1,0 +1,72 @@
+/**** pour tout le code *****/
+body{
+   margin: 0px; 
+   padding: 0px;
+   font-family: 'Open sans condensed', sans-serif;
+}
+
+/**** section header ***/
+header{
+    text-transform: uppercase;
+    background-color: #4169E1;
+    height: 68px;
+}
+
+header h1{
+    color: white;
+    margin: 0 50px;
+    line-height: 60px;
+    text-shadow: 3px 3px 3px black;
+}
+
+header nav{
+    float: right;
+    position: relative;
+    top: -60px;
+    z-index: 1;
+}
+
+header nav ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+header nav ul li{
+    list-style: none;
+    float: left;
+    padding: 15px;
+    position: relative;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    width: 200px;
+    color: white;
+    text-shadow: 3px 3px 3px black;
+    line-height: 38px;
+}
+
+header nav ul li ul{
+    position: absolute;
+    visibility: hidden;
+    right: 1px;
+    top: 68px;
+}
+
+header nav ul li ul li{
+    background-color: #4169E1;
+    width: 250px;
+}
+
+header nav ul li:hover ul{
+    visibility: visible;
+}
+
+header nav ul li:hover{
+    background-color: green;
+}
+
+
